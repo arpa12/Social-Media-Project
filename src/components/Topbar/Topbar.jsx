@@ -5,7 +5,6 @@ import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 
 
-
 export default function Topbar(){
     return(
         <div className='topbarContainer'>
@@ -14,7 +13,7 @@ export default function Topbar(){
             </div>
             <div className="topbarCenter">
                 <div className="searchBar">
-                    <SearchIcon />
+                    <SearchIcon className='search'/>
                     <input placeholder='search for friend, post or video' className="searchInput" />
                 </div>
             </div>
